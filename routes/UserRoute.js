@@ -13,4 +13,6 @@ router.delete('/:id',userControll.DeleteUser);
 
 router.put('/:id',userControll.UpdateUser);
 
+router.post('/login',userControll.LoginUser);
+
 module.exports = router;
